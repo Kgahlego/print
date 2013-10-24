@@ -1,6 +1,9 @@
+<script>
+
 $("#printBtn").click(function(){
     printcontent($("#content").html());
 });
+
 function printcontent(content)
 {
     var mywindow = window.open('', '', '');
@@ -12,4 +15,4 @@ function printcontent(content)
     return true;
 }
 
-
+</script>
