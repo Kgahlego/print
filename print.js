@@ -1,5 +1,3 @@
-<script>
-
 $("#printBtn").click(function(){
     printcontent($("#content").html());
 });
@@ -15,4 +13,4 @@ function printcontent(content)
     return true;
 }
 
-</script>
+
